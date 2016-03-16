@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB06527F191DA3EB00E0FCAE /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06527E191DA3EB00E0FCAE /* InitialViewController.m */; };
+		BB065282191DA7F200E0FCAE /* InitialImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB065281191DA7F200E0FCAE /* InitialImage.m */; };
+		BB1338CE1906261B00A00E1B /* RecipeBoxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1338CD1906261B00A00E1B /* RecipeBoxTableViewController.m */; };
+		BB1338D11906263E00A00E1B /* RecipeBoxNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1338D01906263E00A00E1B /* RecipeBoxNameTableViewCell.m */; };
+		BB1DABE21902EB6000BEE9C2 /* recipeGroupCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1DABE11902EB6000BEE9C2 /* recipeGroupCollectionViewController.m */; };
+		BB2F3F981908795A0016DCEE /* RecipeCard.tif in Resources */ = {isa = PBXBuildFile; fileRef = BB2F3F971908795A0016DCEE /* RecipeCard.tif */; };
+		BB2F3F9A190889140016DCEE /* bookshelf.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F3F99190889140016DCEE /* bookshelf.png */; };
+		BB2F3FAE190966990016DCEE /* BlueRecipe.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F3FA9190966990016DCEE /* BlueRecipe.png */; };
+		BB2F3FAF190966990016DCEE /* GreenRecipe.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F3FAA190966990016DCEE /* GreenRecipe.png */; };
+		BB2F3FB0190966990016DCEE /* PurpleRecipe.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F3FAB190966990016DCEE /* PurpleRecipe.png */; };
+		BB2F3FB1190966990016DCEE /* RedRecipe.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F3FAC190966990016DCEE /* RedRecipe.png */; };
+		BB2F3FB2190966990016DCEE /* TealRecipe.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F3FAD190966990016DCEE /* TealRecipe.png */; };
+		BB3389681901EF500027C2AF /* recipeGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3389671901EF500027C2AF /* recipeGroupCell.m */; };
+		BB375DAB18FB491E00EA0AB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB375DAA18FB491E00EA0AB8 /* Foundation.framework */; };
+		BB375DAD18FB491E00EA0AB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB375DAC18FB491E00EA0AB8 /* CoreGraphics.framework */; };
+		BB375DAF18FB491F00EA0AB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB375DAE18FB491F00EA0AB8 /* UIKit.framework */; };
+		BB375DB518FB491F00EA0AB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB375DB318FB491F00EA0AB8 /* InfoPlist.strings */; };
+		BB375DB718FB491F00EA0AB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB375DB618FB491F00EA0AB8 /* main.m */; };
+		BB375DBB18FB491F00EA0AB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB375DBA18FB491F00EA0AB8 /* AppDelegate.m */; };
+		BB375DBE18FB491F00EA0AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB375DBC18FB491F00EA0AB8 /* Main.storyboard */; };
+		BB375DC118FB491F00EA0AB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB375DC018FB491F00EA0AB8 /* ViewController.m */; };
+		BB375DC318FB491F00EA0AB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB375DC218FB491F00EA0AB8 /* Images.xcassets */; };
+		BB375DCA18FB491F00EA0AB8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB375DC918FB491F00EA0AB8 /* XCTest.framework */; };
+		BB375DCB18FB491F00EA0AB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB375DAA18FB491E00EA0AB8 /* Foundation.framework */; };
+		BB375DCC18FB491F00EA0AB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB375DAE18FB491F00EA0AB8 /* UIKit.framework */; };
+		BB375DD418FB491F00EA0AB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB375DD218FB491F00EA0AB8 /* InfoPlist.strings */; };
+		BB375DD618FB491F00EA0AB8 /* webExtractTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB375DD518FB491F00EA0AB8 /* webExtractTests.m */; };
+		BB4BB1AC190097E200FED1F1 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4BB1AB190097E200FED1F1 /* RecipeViewController.m */; };
+		BB4BB1B41900A70500FED1F1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4BB1B31900A70500FED1F1 /* libsqlite3.dylib */; };
+		BB4CF11C190A087500497F82 /* EnterRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4CF11B190A087500497F82 /* EnterRecipeViewController.m */; };
+		BB4CF11F190A119500497F82 /* EnterRecipeBoxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4CF11E190A119500497F82 /* EnterRecipeBoxTableViewController.m */; };
+		BB7293641903418B00FBB3B8 /* AddRecipe.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7293631903418B00FBB3B8 /* AddRecipe.png */; };
+		BB99086A190765DC00C63EF1 /* RecipeListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB990869190765DC00C63EF1 /* RecipeListTableViewCell.m */; };
+		BB99086D190765EE00C63EF1 /* RecipeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB99086C190765EE00C63EF1 /* RecipeListTableViewController.m */; };
+		BBAE334F19228A1000C29A24 /* MyRecipeBoxFront.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAE334E19228A1000C29A24 /* MyRecipeBoxFront.png */; };
+		BBAE335219228B3D00C29A24 /* LaunchImageRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAE335019228B3D00C29A24 /* LaunchImageRetina.png */; };
+		BBAE335319228B3D00C29A24 /* LaunchImageRetina4in.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAE335119228B3D00C29A24 /* LaunchImageRetina4in.png */; };
+		BBB0796B192291920077E0A6 /* Icons.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB0796A192291920077E0A6 /* Icons.png */; };
+		BBBE394419085E51007C1CD3 /* indexDividerNew2.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBBE394319085E51007C1CD3 /* indexDividerNew2.tif */; };
+		BBC72EA21909D00F0006EBF8 /* RecipeLabel.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBC72EA11909D00F0006EBF8 /* RecipeLabel.tif */; };
+		BBC72EA41909D1CD0006EBF8 /* Damask.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBC72EA31909D1CD0006EBF8 /* Damask.tif */; };
+		BBF206CE191DB1490085638F /* fileBox.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF206CB191DB1490085638F /* fileBox.png */; };
+		BBF206CF191DB1490085638F /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF206CC191DB1490085638F /* web.png */; };
+		BBF206D0191DB1490085638F /* file_edit.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF206CD191DB1490085638F /* file_edit.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB375DCD18FB491F00EA0AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB375D9F18FB491E00EA0AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB375DA618FB491E00EA0AB8;
+			remoteInfo = webExtract;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB06527D191DA3EB00E0FCAE /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		BB06527E191DA3EB00E0FCAE /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		BB065280191DA7F200E0FCAE /* InitialImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialImage.h; sourceTree = "<group>"; };
+		BB065281191DA7F200E0FCAE /* InitialImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialImage.m; sourceTree = "<group>"; };
+		BB1338CC1906261B00A00E1B /* RecipeBoxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeBoxTableViewController.h; sourceTree = "<group>"; };
+		BB1338CD1906261B00A00E1B /* RecipeBoxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeBoxTableViewController.m; sourceTree = "<group>"; };
+		BB1338CF1906263E00A00E1B /* RecipeBoxNameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeBoxNameTableViewCell.h; sourceTree = "<group>"; };
+		BB1338D01906263E00A00E1B /* RecipeBoxNameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeBoxNameTableViewCell.m; sourceTree = "<group>"; };
+		BB1DABE01902EB6000BEE9C2 /* recipeGroupCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recipeGroupCollectionViewController.h; sourceTree = "<group>"; };
+		BB1DABE11902EB6000BEE9C2 /* recipeGroupCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recipeGroupCollectionViewController.m; sourceTree = "<group>"; };
+		BB2F3F971908795A0016DCEE /* RecipeCard.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = RecipeCard.tif; sourceTree = "<group>"; };
+		BB2F3F99190889140016DCEE /* bookshelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookshelf.png; sourceTree = "<group>"; };
+		BB2F3FA9190966990016DCEE /* BlueRecipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueRecipe.png; sourceTree = "<group>"; };
+		BB2F3FAA190966990016DCEE /* GreenRecipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenRecipe.png; sourceTree = "<group>"; };
+		BB2F3FAB190966990016DCEE /* PurpleRecipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PurpleRecipe.png; sourceTree = "<group>"; };
+		BB2F3FAC190966990016DCEE /* RedRecipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedRecipe.png; sourceTree = "<group>"; };
+		BB2F3FAD190966990016DCEE /* TealRecipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TealRecipe.png; sourceTree = "<group>"; };
+		BB3389661901EF500027C2AF /* recipeGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recipeGroupCell.h; sourceTree = "<group>"; };
+		BB3389671901EF500027C2AF /* recipeGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recipeGroupCell.m; sourceTree = "<group>"; };
+		BB375DA718FB491E00EA0AB8 /* webExtract.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webExtract.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB375DAA18FB491E00EA0AB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB375DAC18FB491E00EA0AB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB375DAE18FB491F00EA0AB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB375DB218FB491F00EA0AB8 /* webExtract-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webExtract-Info.plist"; sourceTree = "<group>"; };
+		BB375DB418FB491F00EA0AB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB375DB618FB491F00EA0AB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB375DB818FB491F00EA0AB8 /* webExtract-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webExtract-Prefix.pch"; sourceTree = "<group>"; };
+		BB375DB918FB491F00EA0AB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB375DBA18FB491F00EA0AB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB375DBD18FB491F00EA0AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB375DBF18FB491F00EA0AB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB375DC018FB491F00EA0AB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB375DC218FB491F00EA0AB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB375DC818FB491F00EA0AB8 /* webExtractTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webExtractTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB375DC918FB491F00EA0AB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB375DD118FB491F00EA0AB8 /* webExtractTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webExtractTests-Info.plist"; sourceTree = "<group>"; };
+		BB375DD318FB491F00EA0AB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB375DD518FB491F00EA0AB8 /* webExtractTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webExtractTests.m; sourceTree = "<group>"; };
+		BB4BB1AA190097E200FED1F1 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeViewController.h; path = webExtract/RecipeViewController.h; sourceTree = "<group>"; };
+		BB4BB1AB190097E200FED1F1 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeViewController.m; path = webExtract/RecipeViewController.m; sourceTree = "<group>"; };
+		BB4BB1B31900A70500FED1F1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BB4CF11A190A087500497F82 /* EnterRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnterRecipeViewController.h; path = ../EnterRecipeViewController.h; sourceTree = "<group>"; };
+		BB4CF11B190A087500497F82 /* EnterRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnterRecipeViewController.m; path = ../EnterRecipeViewController.m; sourceTree = "<group>"; };
+		BB4CF11D190A119500497F82 /* EnterRecipeBoxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterRecipeBoxTableViewController.h; sourceTree = "<group>"; };
+		BB4CF11E190A119500497F82 /* EnterRecipeBoxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterRecipeBoxTableViewController.m; sourceTree = "<group>"; };
+		BB7293631903418B00FBB3B8 /* AddRecipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddRecipe.png; sourceTree = "<group>"; };
+		BB990868190765DC00C63EF1 /* RecipeListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeListTableViewCell.h; path = webExtract/RecipeListTableViewCell.h; sourceTree = "<group>"; };
+		BB990869190765DC00C63EF1 /* RecipeListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeListTableViewCell.m; path = webExtract/RecipeListTableViewCell.m; sourceTree = "<group>"; };
+		BB99086B190765EE00C63EF1 /* RecipeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeListTableViewController.h; path = webExtract/RecipeListTableViewController.h; sourceTree = "<group>"; };
+		BB99086C190765EE00C63EF1 /* RecipeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeListTableViewController.m; path = webExtract/RecipeListTableViewController.m; sourceTree = "<group>"; };
+		BBAE334E19228A1000C29A24 /* MyRecipeBoxFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyRecipeBoxFront.png; sourceTree = "<group>"; };
+		BBAE335019228B3D00C29A24 /* LaunchImageRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImageRetina.png; sourceTree = "<group>"; };
+		BBAE335119228B3D00C29A24 /* LaunchImageRetina4in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImageRetina4in.png; sourceTree = "<group>"; };
+		BBB0796A192291920077E0A6 /* Icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icons.png; sourceTree = "<group>"; };
+		BBBE394319085E51007C1CD3 /* indexDividerNew2.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = indexDividerNew2.tif; sourceTree = "<group>"; };
+		BBC72EA11909D00F0006EBF8 /* RecipeLabel.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = RecipeLabel.tif; sourceTree = "<group>"; };
+		BBC72EA31909D1CD0006EBF8 /* Damask.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Damask.tif; sourceTree = "<group>"; };
+		BBF206CB191DB1490085638F /* fileBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fileBox.png; sourceTree = "<group>"; };
+		BBF206CC191DB1490085638F /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
+		BBF206CD191DB1490085638F /* file_edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_edit.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB375DA418FB491E00EA0AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4BB1B41900A70500FED1F1 /* libsqlite3.dylib in Frameworks */,
+				BB375DAD18FB491E00EA0AB8 /* CoreGraphics.framework in Frameworks */,
+				BB375DAF18FB491F00EA0AB8 /* UIKit.framework in Frameworks */,
+				BB375DAB18FB491E00EA0AB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB375DC518FB491F00EA0AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB375DCA18FB491F00EA0AB8 /* XCTest.framework in Frameworks */,
+				BB375DCC18FB491F00EA0AB8 /* UIKit.framework in Frameworks */,
+				BB375DCB18FB491F00EA0AB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1338CB190625E800A00E1B /* Save Recipe from Online */ = {
+			isa = PBXGroup;
+			children = (
+				BB375DBF18FB491F00EA0AB8 /* ViewController.h */,
+				BB375DC018FB491F00EA0AB8 /* ViewController.m */,
+				BB1338CC1906261B00A00E1B /* RecipeBoxTableViewController.h */,
+				BB1338CD1906261B00A00E1B /* RecipeBoxTableViewController.m */,
+				BB1338CF1906263E00A00E1B /* RecipeBoxNameTableViewCell.h */,
+				BB1338D01906263E00A00E1B /* RecipeBoxNameTableViewCell.m */,
+			);
+			name = "Save Recipe from Online";
+			sourceTree = "<group>";
+		};
+		BB1DABDC1902E7B400BEE9C2 /* Recipe Boxes CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				BB3389661901EF500027C2AF /* recipeGroupCell.h */,
+				BB3389671901EF500027C2AF /* recipeGroupCell.m */,
+				BB1DABE01902EB6000BEE9C2 /* recipeGroupCollectionViewController.h */,
+				BB1DABE11902EB6000BEE9C2 /* recipeGroupCollectionViewController.m */,
+			);
+			name = "Recipe Boxes CollectionView";
+			sourceTree = "<group>";
+		};
+		BB375D9E18FB491D00EA0AB8 = {
+			isa = PBXGroup;
+			children = (
+				BB375DB018FB491F00EA0AB8 /* webExtract */,
+				BB375DCF18FB491F00EA0AB8 /* webExtractTests */,
+				BB375DA918FB491E00EA0AB8 /* Frameworks */,
+				BB375DA818FB491E00EA0AB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB375DA818FB491E00EA0AB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB375DA718FB491E00EA0AB8 /* webExtract.app */,
+				BB375DC818FB491F00EA0AB8 /* webExtractTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB375DA918FB491E00EA0AB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB4BB1B31900A70500FED1F1 /* libsqlite3.dylib */,
+				BB375DAA18FB491E00EA0AB8 /* Foundation.framework */,
+				BB375DAC18FB491E00EA0AB8 /* CoreGraphics.framework */,
+				BB375DAE18FB491F00EA0AB8 /* UIKit.framework */,
+				BB375DC918FB491F00EA0AB8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB375DB018FB491F00EA0AB8 /* webExtract */ = {
+			isa = PBXGroup;
+			children = (
+				BB375DB918FB491F00EA0AB8 /* AppDelegate.h */,
+				BB375DBA18FB491F00EA0AB8 /* AppDelegate.m */,
+				BB375DBC18FB491F00EA0AB8 /* Main.storyboard */,
+				BB065280191DA7F200E0FCAE /* InitialImage.h */,
+				BB065281191DA7F200E0FCAE /* InitialImage.m */,
+				BB06527D191DA3EB00E0FCAE /* InitialViewController.h */,
+				BB06527E191DA3EB00E0FCAE /* InitialViewController.m */,
+				BB375DC218FB491F00EA0AB8 /* Images.xcassets */,
+				BBB84133191D98EF00FE615A /* Recipe Box */,
+				BBB84134191D993C00FE615A /* Manual Recipe Submission */,
+				BB1338CB190625E800A00E1B /* Save Recipe from Online */,
+				BB375DB118FB491F00EA0AB8 /* Supporting Files */,
+			);
+			path = webExtract;
+			sourceTree = "<group>";
+		};
+		BB375DB118FB491F00EA0AB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBBE394319085E51007C1CD3 /* indexDividerNew2.tif */,
+				BBAE335019228B3D00C29A24 /* LaunchImageRetina.png */,
+				BBB0796A192291920077E0A6 /* Icons.png */,
+				BBAE335119228B3D00C29A24 /* LaunchImageRetina4in.png */,
+				BB2F3F971908795A0016DCEE /* RecipeCard.tif */,
+				BB2F3F99190889140016DCEE /* bookshelf.png */,
+				BB7293631903418B00FBB3B8 /* AddRecipe.png */,
+				BBC72EA31909D1CD0006EBF8 /* Damask.tif */,
+				BBF206CB191DB1490085638F /* fileBox.png */,
+				BBF206CC191DB1490085638F /* web.png */,
+				BBF206CD191DB1490085638F /* file_edit.png */,
+				BBAE334E19228A1000C29A24 /* MyRecipeBoxFront.png */,
+				BBC72EA11909D00F0006EBF8 /* RecipeLabel.tif */,
+				BB375DB218FB491F00EA0AB8 /* webExtract-Info.plist */,
+				BB2F3FA9190966990016DCEE /* BlueRecipe.png */,
+				BB2F3FAA190966990016DCEE /* GreenRecipe.png */,
+				BB2F3FAB190966990016DCEE /* PurpleRecipe.png */,
+				BB2F3FAC190966990016DCEE /* RedRecipe.png */,
+				BB2F3FAD190966990016DCEE /* TealRecipe.png */,
+				BB375DB318FB491F00EA0AB8 /* InfoPlist.strings */,
+				BB375DB618FB491F00EA0AB8 /* main.m */,
+				BB375DB818FB491F00EA0AB8 /* webExtract-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB375DCF18FB491F00EA0AB8 /* webExtractTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB375DD518FB491F00EA0AB8 /* webExtractTests.m */,
+				BB375DD018FB491F00EA0AB8 /* Supporting Files */,
+			);
+			path = webExtractTests;
+			sourceTree = "<group>";
+		};
+		BB375DD018FB491F00EA0AB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB375DD118FB491F00EA0AB8 /* webExtractTests-Info.plist */,
+				BB375DD218FB491F00EA0AB8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB9908671907659E00C63EF1 /* List of Recipes TableView */ = {
+			isa = PBXGroup;
+			children = (
+				BB990868190765DC00C63EF1 /* RecipeListTableViewCell.h */,
+				BB990869190765DC00C63EF1 /* RecipeListTableViewCell.m */,
+				BB99086B190765EE00C63EF1 /* RecipeListTableViewController.h */,
+				BB99086C190765EE00C63EF1 /* RecipeListTableViewController.m */,
+				BB4BB1AA190097E200FED1F1 /* RecipeViewController.h */,
+				BB4BB1AB190097E200FED1F1 /* RecipeViewController.m */,
+			);
+			name = "List of Recipes TableView";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BBB84133191D98EF00FE615A /* Recipe Box */ = {
+			isa = PBXGroup;
+			children = (
+				BB1DABDC1902E7B400BEE9C2 /* Recipe Boxes CollectionView */,
+				BB9908671907659E00C63EF1 /* List of Recipes TableView */,
+			);
+			name = "Recipe Box";
+			sourceTree = "<group>";
+		};
+		BBB84134191D993C00FE615A /* Manual Recipe Submission */ = {
+			isa = PBXGroup;
+			children = (
+				BB4CF11A190A087500497F82 /* EnterRecipeViewController.h */,
+				BB4CF11B190A087500497F82 /* EnterRecipeViewController.m */,
+				BB4CF11D190A119500497F82 /* EnterRecipeBoxTableViewController.h */,
+				BB4CF11E190A119500497F82 /* EnterRecipeBoxTableViewController.m */,
+			);
+			name = "Manual Recipe Submission";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB375DA618FB491E00EA0AB8 /* webExtract */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB375DD918FB491F00EA0AB8 /* Build configuration list for PBXNativeTarget "webExtract" */;
+			buildPhases = (
+				BB375DA318FB491E00EA0AB8 /* Sources */,
+				BB375DA418FB491E00EA0AB8 /* Frameworks */,
+				BB375DA518FB491E00EA0AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webExtract;
+			productName = webExtract;
+			productReference = BB375DA718FB491E00EA0AB8 /* webExtract.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB375DC718FB491F00EA0AB8 /* webExtractTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB375DDC18FB491F00EA0AB8 /* Build configuration list for PBXNativeTarget "webExtractTests" */;
+			buildPhases = (
+				BB375DC418FB491F00EA0AB8 /* Sources */,
+				BB375DC518FB491F00EA0AB8 /* Frameworks */,
+				BB375DC618FB491F00EA0AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB375DCE18FB491F00EA0AB8 /* PBXTargetDependency */,
+			);
+			name = webExtractTests;
+			productName = webExtractTests;
+			productReference = BB375DC818FB491F00EA0AB8 /* webExtractTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB375D9F18FB491E00EA0AB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Kowtko;
+				TargetAttributes = {
+					BB375DC718FB491F00EA0AB8 = {
+						TestTargetID = BB375DA618FB491E00EA0AB8;
+					};
+				};
+			};
+			buildConfigurationList = BB375DA218FB491E00EA0AB8 /* Build configuration list for PBXProject "webExtract" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB375D9E18FB491D00EA0AB8;
+			productRefGroup = BB375DA818FB491E00EA0AB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB375DA618FB491E00EA0AB8 /* webExtract */,
+				BB375DC718FB491F00EA0AB8 /* webExtractTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB375DA518FB491E00EA0AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBE394419085E51007C1CD3 /* indexDividerNew2.tif in Resources */,
+				BB2F3FAE190966990016DCEE /* BlueRecipe.png in Resources */,
+				BB375DC318FB491F00EA0AB8 /* Images.xcassets in Resources */,
+				BB2F3FB0190966990016DCEE /* PurpleRecipe.png in Resources */,
+				BBC72EA21909D00F0006EBF8 /* RecipeLabel.tif in Resources */,
+				BBF206D0191DB1490085638F /* file_edit.png in Resources */,
+				BBAE335219228B3D00C29A24 /* LaunchImageRetina.png in Resources */,
+				BB375DB518FB491F00EA0AB8 /* InfoPlist.strings in Resources */,
+				BB2F3FAF190966990016DCEE /* GreenRecipe.png in Resources */,
+				BBB0796B192291920077E0A6 /* Icons.png in Resources */,
+				BBF206CE191DB1490085638F /* fileBox.png in Resources */,
+				BBAE334F19228A1000C29A24 /* MyRecipeBoxFront.png in Resources */,
+				BB2F3FB1190966990016DCEE /* RedRecipe.png in Resources */,
+				BB375DBE18FB491F00EA0AB8 /* Main.storyboard in Resources */,
+				BB2F3F981908795A0016DCEE /* RecipeCard.tif in Resources */,
+				BBF206CF191DB1490085638F /* web.png in Resources */,
+				BB7293641903418B00FBB3B8 /* AddRecipe.png in Resources */,
+				BB2F3F9A190889140016DCEE /* bookshelf.png in Resources */,
+				BBC72EA41909D1CD0006EBF8 /* Damask.tif in Resources */,
+				BB2F3FB2190966990016DCEE /* TealRecipe.png in Resources */,
+				BBAE335319228B3D00C29A24 /* LaunchImageRetina4in.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB375DC618FB491F00EA0AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB375DD418FB491F00EA0AB8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB375DA318FB491E00EA0AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4CF11F190A119500497F82 /* EnterRecipeBoxTableViewController.m in Sources */,
+				BB99086D190765EE00C63EF1 /* RecipeListTableViewController.m in Sources */,
+				BB06527F191DA3EB00E0FCAE /* InitialViewController.m in Sources */,
+				BB1DABE21902EB6000BEE9C2 /* recipeGroupCollectionViewController.m in Sources */,
+				BB1338CE1906261B00A00E1B /* RecipeBoxTableViewController.m in Sources */,
+				BB4BB1AC190097E200FED1F1 /* RecipeViewController.m in Sources */,
+				BB065282191DA7F200E0FCAE /* InitialImage.m in Sources */,
+				BB3389681901EF500027C2AF /* recipeGroupCell.m in Sources */,
+				BB375DC118FB491F00EA0AB8 /* ViewController.m in Sources */,
+				BB1338D11906263E00A00E1B /* RecipeBoxNameTableViewCell.m in Sources */,
+				BB375DBB18FB491F00EA0AB8 /* AppDelegate.m in Sources */,
+				BB375DB718FB491F00EA0AB8 /* main.m in Sources */,
+				BB99086A190765DC00C63EF1 /* RecipeListTableViewCell.m in Sources */,
+				BB4CF11C190A087500497F82 /* EnterRecipeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB375DC418FB491F00EA0AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB375DD618FB491F00EA0AB8 /* webExtractTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB375DCE18FB491F00EA0AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB375DA618FB491E00EA0AB8 /* webExtract */;
+			targetProxy = BB375DCD18FB491F00EA0AB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB375DB318FB491F00EA0AB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB375DB418FB491F00EA0AB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB375DBC18FB491F00EA0AB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB375DBD18FB491F00EA0AB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB375DD218FB491F00EA0AB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB375DD318FB491F00EA0AB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB375DD718FB491F00EA0AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB375DD818FB491F00EA0AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB375DDA18FB491F00EA0AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webExtract/webExtract-Prefix.pch";
+				INFOPLIST_FILE = "webExtract/webExtract-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kowtko.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB375DDB18FB491F00EA0AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webExtract/webExtract-Prefix.pch";
+				INFOPLIST_FILE = "webExtract/webExtract-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kowtko.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB375DDD18FB491F00EA0AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/webExtract.app/webExtract";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webExtract/webExtract-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "webExtractTests/webExtractTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kowtko.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB375DDE18FB491F00EA0AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/webExtract.app/webExtract";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webExtract/webExtract-Prefix.pch";
+				INFOPLIST_FILE = "webExtractTests/webExtractTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kowtko.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB375DA218FB491E00EA0AB8 /* Build configuration list for PBXProject "webExtract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB375DD718FB491F00EA0AB8 /* Debug */,
+				BB375DD818FB491F00EA0AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB375DD918FB491F00EA0AB8 /* Build configuration list for PBXNativeTarget "webExtract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB375DDA18FB491F00EA0AB8 /* Debug */,
+				BB375DDB18FB491F00EA0AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB375DDC18FB491F00EA0AB8 /* Build configuration list for PBXNativeTarget "webExtractTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB375DDD18FB491F00EA0AB8 /* Debug */,
+				BB375DDE18FB491F00EA0AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB375D9F18FB491E00EA0AB8 /* Project object */;
+}
